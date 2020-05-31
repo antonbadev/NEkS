@@ -1,0 +1,17 @@
+No,Label,Description,PriorMean,PriorSD,PropSD,FlagInclude
+1,v0,Baseline probability of smoking,0.2,0.1,0.001,1
+2,vPrice,Price,-0.005,0.01,0.0002,0
+3,vIncome,Log income,0.1,0.1,0.02,1
+4,vMomEd,Mom edu (HS\&CO)$^{MP}$,-0.05,0.05,0.002,1
+5,vHHsmokes,HH smokes,0.1,0.1,0.006,1
+6,vGrade9p,Grade 9+$^{MP}$,0.2,0.2,0.005,1
+7,vBlack,Blacks$^{MP}$,-0.2,0.2,0.01,1
+8,hh,$30\%$ of the school smokes$^{MP}$,0.05,0.1,0.001,1
+9,w0,Baseline number of friends,3,2,0.05,0
+10,diffSex,Different sex$^{MP\%}$,-0.7,0.5,0.01,0
+11,diffGrade,Different grades$^{MP\%}$,-0.7,0.5,0.01,0
+12,diffRace,Different race$^{MP\%}$,-0.5,0.5,0.01,0
+13,psi,Cost/Economy of scale,0,0.5,0.01,0
+14,qq9p,Triangles$^{MP\%}$,0,2,0.02,0
+15,phi1,$\phi_{smoke}^{MP}$,0.05,0.05,0.001,0
+16,phi2,$\phi_{nosmoke}^{MP}$,0.05,0.05,0.001,0
