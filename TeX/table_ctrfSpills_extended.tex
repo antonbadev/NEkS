@@ -1,0 +1,37 @@
+% tex created by table_ctrfSpills.py 
+
+    \begin{table}[!h]
+    \caption{Spillovers}
+    \label{table:ctrf-spillovers}
+    \begin{center}
+    \begin{tabular}{ccccccc}
+    \multirow{2}{2cm}{Campaign size (\%)}  
+    & \multirow{2}{2cm}{Predicted smoking} 
+    & \multicolumn{4}{c}{Predicted effect}
+    & \multirow{2}{*}{Multiplier} \\
+    & & Model
+    & Exog net
+    & No network
+    & Prop    
+    \\
+     \hline \hline
+    - & 42.1 & - & - & - & - & \\ 
+   3& 39.6&  2.6&  2.0&  2.0&  1.2&  2.0 \\ 
+   5& 38.2&  3.9&  3.1&  3.1&  1.9&  1.9 \\ 
+  10& 34.6&  7.5&  5.9&  6.1&  3.5&  1.8 \\ 
+  20& 28.7& 13.4& 10.7& 11.0&  5.7&  1.6 \\ 
+  30& 23.5& 18.6& 14.9& 15.4&  7.1&  1.5 \\ 
+  50& 15.1& 27.0& 21.9& 22.4&  7.5&  1.3 \\ 
+
+    \hline
+    \end{tabular}
+    \end{center}
+    \fignotetitle{Note:} The first and the second columns list the alternative attendance rates and the simulated smoking prevalences respectively.
+    Columns three to six display the simulated decrease in overall smoking for different estimation scenarios:
+        the full model, the model with exogenous (fixed) social network, the model with no social network data, and 
+        the policy effect if it were (only) proportional to the intervention, i.e. a baseline without peer effects. 
+        The last column computes the ratio between the percentage change in the number of smokers and the attendance rate.
+        %Note that that attendance is random with respect to the smoking status of the students. 
+        %If the campaign is able to target only students who are currently smokers, the spillover effects will be even larger.
+    \end{table}
+    
